@@ -1,0 +1,24 @@
+CREATE TABLE emp_joins1 (empId INT, empName VARCHAR(100), EmpCountry VARCHAR(100));
+
+CREATE TABLE emp_joins2 (empId INT, empDesignation VARCHAR(50), EmpSalary BIGINT);
+
+INSERT INTO emp_joins1 (empID, empName, EmpCountry) VALUES (1001, 'Saraswathi', 'TamilNadu' );
+
+INSERT INTO  emp_joins1 (empID, empName, EmpCountry) VALUES (1011, 'Karthick', 'Delhi' );
+
+INSERT INTO  emp_joins1 (empID, empName, EmpCountry) VALUES (1021, 'Justin', 'Assam' );
+
+INSERT INTO emp_joins1 (empID, empName, EmpCountry) VALUES (1031, 'Sashi', 'J&K' );
+
+SELECT * FROM emp_joins1;
+
+INSERT INTO emp_joins2 (empId, empDesignation, EmpSalary) VALUES (1001, 'Program Analyst', 20000);
+
+INSERT INTO emp_joins2 (empId, empDesignation, EmpSalary) VALUES (1011, 'Network Analyst', 15000);
+
+INSERT INTO emp_joins2 (empId, empDesignation, EmpSalary) VALUES (1021, 'Software Testing', 13000);
+
+INSERT INTO emp_joins2 (empId, empDesignation, EmpSalary) VALUES (1091, 'Testing', 15000);
+
+SELECT * FROM emp_joins2;
+

@@ -1,0 +1,5 @@
+--Full Outer Join
+
+SELECT emp_joins1.empName, emp_joins2.empDesignation, emp_joins2.empSalary 
+FROM emp_joins1
+FULL OUTER JOIN emp_joins2 ON emp_joins1.empId = emp_joins2.empId;

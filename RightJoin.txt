@@ -1,0 +1,5 @@
+-- Left Joins
+
+SELECT empName, empDesignation, empSalary 
+FROM emp_joins1
+LEFT JOIN emp_joins2 ON emp_joins1.empId = emp_joins2.empId;

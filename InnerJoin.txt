@@ -1,0 +1,5 @@
+-- Inner joins
+
+SELECT empName, empDesignation, empSalary 
+FROM emp_joins1
+INNER JOIN emp_joins2 ON emp_joins1.empId = emp_joins2.empId;
